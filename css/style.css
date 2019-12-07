@@ -1,3 +1,16 @@
+
+
+@font-face{
+    font-family: gooddog;
+    src: url(../font/GOODDC__.TTF);
+    font-weight: bold;
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(../font/MontserratAlternates-Light.otf);
+    font-weight: lighter;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +52,7 @@
     font-family: 'Montserrat', sans-serif;
   }
   .btn-learn {
-    margin: 1rem 5rem 0rem 0rem;
+    margin: 1rem 5rem 10rem 0rem;
     float: right;
     text-transform: uppercase;
     background: #36421c;
@@ -57,4 +70,30 @@
     background: #2c3725;
     color: #fff;
     outline: none;
+}
+
+#cook {
+    background: #212121;
+    overflow: hidden;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.cook-left{
+    margin-top: 7rem;
+}
+.cook-left h3{
+    color: #fff;
+    font-family: gooddog;
+    font-size: 64px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.cook-left p{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: center;
 }
