@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bg-image {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    /* height: 100%; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+    background: no-repeat;
+  }
+  .logo {
+    margin: 10rem 14rem 0rem 0;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  /* textcolor: #9baf6d; */
+  .heading h1{
+    font-size: 56px;
+    text-align: right;
+    color: #9baf6d;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 4rem 4rem 0rem 0rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .heading h2 {
+    font-size: 62px;
+    text-align: right;
+    color: #9baf6d;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .btn-learn {
+    margin: 1rem 5rem 0rem 0rem;
+    float: right;
+    text-transform: uppercase;
+    background: #36421c;
+    opacity: 0.6;
+    color: #9baf6d;
+    height: 99px;
+    width: 390px;
+    font-size: 50px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 300ms linear;
+}
+
+.btn-learn:hover {
+    background: #2c3725;
+    color: #fff;
+    outline: none;
+}
