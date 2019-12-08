@@ -71,15 +71,30 @@
     color: #fff;
     outline: none;
 }
-
+/* ==================================== */
+/* ALL SECTION GOES HERE */
 #cook {
     background: #212121;
     overflow: hidden;
 }
-.container-fluid {
-    margin: 0;
-    padding: 0;
+#test {
+    background: #494d3f;
+    overflow: hidden;
 }
+#plates {
+    background: #212121;
+    overflow: hidden;
+}
+
+/* ==================================== */
+.remove-all-margin-padding{
+    margin:0 ! important;
+    padding:0 ! important;
+    }
+.remove-all-padding{
+    padding: 0 !important;
+}    
+
 .cook-left{
     margin-top: 7rem;
 }
@@ -94,6 +109,68 @@
 .cook-left p{
     color: #fff;
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
 }
+
+#test h3{
+    font-family: gooddog;
+    color: #fff;
+    font-size: 54px;
+    margin-top: 3rem;
+}
+
+#test p{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 17px;
+    margin-bottom: 3rem;
+}
+
+#plates .container{
+    background: #494d3f;
+    margin-top: 5rem;
+    padding: 0;
+}
+.heading-plate{ text-align: center;}
+.heading-plate h3{
+    font-family: gooddog;
+    font-size: 44px;
+    color: #fff;
+    margin-top: 3rem;
+}
+.heading-plate h2{
+    font-family: Montserrat;
+    font-size: 44px;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+.plate h3 {
+    font-size: 2.75rem;
+    font-family: gooddog;
+    /* font-size: 44px; */
+    color: #afc67b;
+    margin-top: 2rem;
+}
+.plate p {
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.plate p:nth-child(3)
+    {
+        font-size: 16px;
+        color: #fff;
+        text-decoration-line: underline;
+        font-family: Montserrat;
+    }
+.no-gutters {
+            margin-right: 0;
+            margin-left: 0;
+            padding-right: 0;
+            padding-left: 0;
+       }     
+.img-width {
+    width: 100%;
+}       
