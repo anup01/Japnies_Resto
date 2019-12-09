@@ -227,7 +227,7 @@
     font-family: gooddog;
     font-size: 74px;
     font-weight: 300;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .disc-heading h3{
     font-family: Montserrat;
@@ -304,4 +304,11 @@ input{
     color: #fff;
     font-family: Montserrat;
     opacity: 1; /* Firefox */
+  }
+
+  .disc-menu-items-2{
+      background: #42453a;
+  }
+  .card{
+      border: none;
   }
