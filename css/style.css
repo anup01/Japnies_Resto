@@ -201,7 +201,7 @@
     width: 100%;
 }       
 
-.new-menu-disc{ background: #42453a;}
+.new-menu-disc{ background: #42453a; margin-bottom: -16px;}
 .new-menu-disc h1{
     color: #afc67b;
     font-family: gooddog;
@@ -216,4 +216,35 @@
     color: #fff;
     padding: 0rem 10rem 7rem 10rem;
     text-align: center;
+}
+
+.disc-menu-items{
+    background: #42453a;
+    margin-top: 15rem;
+}
+.disc-heading h1{
+    color: #c6c6c3;
+    font-family: gooddog;
+    font-size: 74px;
+    font-weight: 300;
+    margin-top: 2rem;
+}
+.disc-heading h3{
+    font-family: Montserrat;
+    color: #c6c6c3;
+    text-transform: uppercase; 
+    font-size: 44px;
+    margin-bottom: 2rem;
+}
+.disc-menu{
+    margin: 0rem 1rem 2rem 3rem;
+}
+.disc-menu h4{
+    color: #c6c6c3;
+    font-family: gooddog;
+}
+.disc-menu p{
+    font-family: Montserrat;
+    color: #c6c6c3;
+    font-size: 14px;  
 }
