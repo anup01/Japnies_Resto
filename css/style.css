@@ -248,3 +248,60 @@
     color: #c6c6c3;
     font-size: 14px;  
 }
+
+#book-order{
+    background: #212121;
+    overflow: hidden;
+}
+
+.book-order h1{
+    color: #fff;
+    font-family: gooddog;
+    font-size: 74px;
+    font-weight: 300;
+    margin-top: 2rem;  
+}
+
+#book-order h4{ 
+    font-family: Montserrat;
+    font-weight: bold;
+    color:#fff;
+}
+.dropdown{
+        font-family: Montserrat;
+        height: 29px;
+        width: 230px;
+        border-radius: 5px;
+        font-size: 17px;
+        margin: 0;
+        padding: 0;
+}
+.input-data{
+    border-radius: 5px;
+    background-color: #545b62;
+    color: #fff;
+    width: 200px;
+}
+::-webkit-inner-spin-button,
+::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+#time-width{ width:60px;}
+input{
+    text-align: center;
+}
+.margin-left{
+    margin-left: 10rem;
+}
+.book-submit .btn{
+    background: #545b62;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #fff;
+}
+::placeholder {
+    color: #fff;
+    font-family: Montserrat;
+    opacity: 1; /* Firefox */
+  }
