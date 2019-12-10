@@ -11,7 +11,43 @@
     <title>JapniesResto</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="100"> 
+    <!-- NAVBAR -->
+        <header>
+                <div class="container-fluid">
+                    <nav class="navbar navbar-dark fixed-top navbar-expand-lg pt-3 text-center">
+                        <button class="navbar-toggler mr-5 mt-2" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <!-- <span class="navbar-toggler-icon"></span> -->
+                                <span class="line"></span> 
+                                <span class="line"></span> 
+                                <span class="line"></span>
+                            </button>
+                        <div class="collapse navbar-collapse mr-5" id="navbar-list-2">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link smooth-scroll" href="#home">WELCOME
+                                      <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link smooth-scroll" href="#plates">MENU</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link smooth-scroll" href="#book-order">BOOK</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link smooth-scroll" href="#disc-new-menu-2">EVENT</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link smooth-scroll" href="#review">CONTACTS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            
+            </header>
     <!-- HOME SECTION -->
     <div class="container">
         <div class="row">
@@ -346,7 +382,7 @@
     </section>
 
     <!-- DISCOVER NEW MUNE 2 -->
-    <section id="disc-new-menu">
+    <section id="disc-new-menu-2">
         <div class="disc-menu-items-2">
             <div class="container-fluid">
                 <div class="row">
@@ -424,12 +460,12 @@
     </section>
 
     <!-- JS library -->
-    <script src="js/app.js"></script>
+
     <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap/umd/popper.min.js"></script>
     <script src="js/bootstrap/bootstrap.min.js"></script>
-
+    <script src="js/app.js"></script>
 
 </body>
 
