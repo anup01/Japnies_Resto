@@ -1,11 +1,10 @@
-
-
-@font-face{
+@font-face {
     font-family: gooddog;
     src: url(../fonts/GOODDC__.TTF);
     font-weight: bold;
 }
-@font-face{
+
+@font-face {
     font-family: Montserrat;
     src: url(../fonts/MontserratAlternates-Light.otf);
     font-weight: lighter;
@@ -14,9 +13,9 @@
 * {
     margin: 0;
     padding: 0;
-  }
+}
 
-  .bg-image {
+.bg-image {
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     /* height: 100%; */
@@ -26,9 +25,9 @@
     z-index: -1;
     background-size: cover;
     background: no-repeat;
-  }
+}
 
-  /* .dis-bg-image {
+/* .dis-bg-image {
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 100%;
@@ -40,25 +39,28 @@
     background: no-repeat;
   } */
 
-  .backgroundc {
+.backgroundc {
     height: 1730px;
-      background: url('../images/Discover_bg-1.jpg') no-repeat center fixed;
-      -webkit-background-size: cover;
+    background: url('../images/Discover_bg-1.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-      background-size: cover;
-      background-color: #1c120c;
-      background-attachment:inherit;
-      position:relative;
-      overflow:hidden;
-   }
-  .logo {
+    background-size: cover;
+    background-color: #1c120c;
+    background-attachment: inherit;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
     margin: 10rem 14rem 0rem 0;
     display: flex;
     flex-direction: row-reverse;
-  }
-  /* textcolor: #9baf6d; */
-  .heading h1{
+}
+
+/* textcolor: #9baf6d; */
+
+.heading h1 {
     font-size: 56px;
     text-align: right;
     color: #9baf6d;
@@ -66,8 +68,9 @@
     font-weight: 300;
     margin: 4rem 4rem 0rem 0rem;
     font-family: 'Montserrat', sans-serif;
-  }
-  .heading h2 {
+}
+
+.heading h2 {
     font-size: 62px;
     text-align: right;
     color: #9baf6d;
@@ -75,8 +78,9 @@
     font-weight: bold;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-  }
-  .btn-learn {
+}
+
+.btn-learn {
     margin: 1rem 5rem 10rem 0rem;
     float: right;
     text-transform: uppercase;
@@ -96,34 +100,42 @@
     color: #fff;
     outline: none;
 }
+
 /* ==================================== */
+
 /* ALL SECTION GOES HERE */
+
 #cook {
     background: #212121;
     overflow: hidden;
 }
+
 #test {
     background: #494d3f;
     overflow: hidden;
 }
+
 #plates {
     background: #212121;
     overflow: hidden;
 }
 
 /* ==================================== */
-.remove-all-margin-padding{
-    margin:0 ! important;
-    padding:0 ! important;
-    }
-.remove-all-padding{
-    padding: 0 !important;
-}    
 
-.cook-left{
+.remove-all-margin-padding {
+    margin: 0 ! important;
+    padding: 0 ! important;
+}
+
+.remove-all-padding {
+    padding: 0 !important;
+}
+
+.cook-left {
     margin-top: 7rem;
 }
-.cook-left h1{
+
+.cook-left h1 {
     color: #afc67b;
     font-family: gooddog;
     font-size: 64px;
@@ -131,46 +143,52 @@
     text-align: center;
 }
 
-.cook-left p{
+.cook-left p {
     color: #fff;
     font-family: Montserrat;
     font-size: 17px;
     text-align: center;
 }
 
-#test h3{
+#test h3 {
     font-family: gooddog;
     color: #fff;
     font-size: 54px;
     margin-top: 3rem;
 }
 
-#test p{
+#test p {
     color: #fff;
     font-family: Montserrat;
     font-size: 17px;
     margin-bottom: 3rem;
 }
 
-#plates .container{
+#plates .container {
     background: #494d3f;
     margin-top: 5rem;
     margin-bottom: 5rem;
     padding: 0;
 }
-.heading-plate{ text-align: center;}
-.heading-plate h1{
+
+.heading-plate {
+    text-align: center;
+}
+
+.heading-plate h1 {
     font-family: gooddog;
     font-size: 64px;
     color: #afc67b;
     margin-top: 3rem;
 }
-.heading-plate h2{
+
+.heading-plate h2 {
     font-family: Montserrat;
     font-size: 44px;
     color: #fff;
     margin-bottom: 3rem;
 }
+
 .plate h3 {
     font-size: 2.75rem;
     font-family: gooddog;
@@ -178,31 +196,38 @@
     color: #afc67b;
     margin-top: 2rem;
 }
+
 .plate p {
     font-family: Montserrat;
     font-size: 16px;
     color: #fff;
     margin-bottom: 1rem;
 }
-.plate p:nth-child(3)
-    {
-        font-size: 16px;
-        color: #fff;
-        text-decoration-line: underline;
-        font-family: Montserrat;
-    }
+
+.plate p:nth-child(3) {
+    font-size: 16px;
+    color: #fff;
+    text-decoration-line: underline;
+    font-family: Montserrat;
+}
+
 .no-gutters {
-            margin-right: 0;
-            margin-left: 0;
-            padding-right: 0;
-            padding-left: 0;
-       }     
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .img-width {
     width: 100%;
-}       
+}
 
-.new-menu-disc{ background: #42453a; margin-bottom: -16px;}
-.new-menu-disc h1{
+.new-menu-disc {
+    background: #42453a;
+    margin-bottom: -16px;
+}
+
+.new-menu-disc h1 {
     color: #afc67b;
     font-family: gooddog;
     font-size: 64px;
@@ -210,6 +235,7 @@
     text-align: center;
     padding-top: 7.1875rem;
 }
+
 .new-menu-disc p {
     font-family: Montserrat;
     font-size: 16px;
@@ -218,101 +244,119 @@
     text-align: center;
 }
 
-.disc-menu-items{
+.disc-menu-items {
     background: #42453a;
     margin-top: 15rem;
 }
-.disc-heading h1{
+
+.disc-heading h1 {
     color: #c6c6c3;
     font-family: gooddog;
     font-size: 74px;
     font-weight: 300;
     margin-top: 1rem;
 }
-.disc-heading h3{
+
+.disc-heading h3 {
     font-family: Montserrat;
     color: #c6c6c3;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-size: 44px;
     margin-bottom: 2rem;
 }
-.disc-menu{
+
+.disc-menu {
     margin: 0rem 1rem 2rem 3rem;
 }
-.disc-menu h4{
+
+.disc-menu h4 {
     color: #c6c6c3;
     font-family: gooddog;
 }
-.disc-menu p{
+
+.disc-menu p {
     font-family: Montserrat;
     color: #c6c6c3;
-    font-size: 14px;  
+    font-size: 14px;
 }
 
-#book-order{
+#book-order {
     background: #212121;
     overflow: hidden;
 }
 
-.book-order h1{
+.book-order h1 {
     color: #fff;
     font-family: gooddog;
     font-size: 74px;
     font-weight: 300;
-    margin-top: 2rem;  
+    margin-top: 2rem;
 }
 
-#book-order h4{ 
+#book-order h4 {
     font-family: Montserrat;
     font-weight: bold;
-    color:#fff;
+    color: #fff;
 }
-.dropdown{
-        font-family: Montserrat;
-        height: 29px;
-        width: 230px;
-        border-radius: 5px;
-        font-size: 17px;
-        margin: 0;
-        padding: 0;
+
+.dropdown {
+    font-family: Montserrat;
+    height: 29px;
+    width: 230px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
 }
-.input-data{
+
+.input-data {
     border-radius: 5px;
     background-color: #545b62;
     color: #fff;
     width: 200px;
 }
+
 ::-webkit-inner-spin-button,
 ::-webkit-calendar-picker-indicator {
     display: none;
     -webkit-appearance: none;
 }
-#time-width{ width:60px;}
-input{
+
+#time-width {
+    width: 60px;
+}
+
+input {
     text-align: center;
 }
-.margin-left{
+
+.margin-left {
     margin-left: 10rem;
 }
-.book-submit .btn{
+
+.book-submit .btn {
     background: #545b62;
     font-family: Montserrat;
     font-weight: bold;
     color: #fff;
 }
+
 ::placeholder {
     color: #fff;
     font-family: Montserrat;
-    opacity: 1; /* Firefox */
-  }
+    opacity: 1;
+    /* Firefox */
+}
 
-  .disc-menu-items-2{
-      background: #42453a;
-  }
-  .card{
-      border: none;
-  }
-  #review{
+.disc-menu-items-2 {
+    background: #42453a;
+}
+
+.card {
+    border: none;
+}
+
+#review {
     background: #212121;
     overflow: hidden;
 }
@@ -323,9 +367,11 @@ input{
     font-size: 20px;
     margin: 0rem 10rem 1rem 10rem;
 }
-#review h3{
+
+#review h3 {
     color: #afc67b;
 }
+
 i.fa {
     display: inline-block;
     border-radius: 60px;
@@ -335,4 +381,4 @@ i.fa {
     background: #fff;
     color: black;
     font-size: 18px;
-  }
+}
