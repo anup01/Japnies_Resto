@@ -37,3 +37,16 @@ $(function() {
         }
     }
 });
+
+
+//need to work on it read more option
+$(document).ready(function () {
+    $(".read-more-hide").hide();
+    $(".read-more").on("click", function () {
+        // var txt = $(".read-more-hide").is(':visible') ? 'Read More' : 'Read Less';
+        // $(".show_hide").text(txt);
+        // $(".read-more-hide").toggle();
+        $(this).prev('.read-more-hide').slideToggle(500);
+        $(this).text('Read less');
+    });
+});

@@ -401,3 +401,9 @@ i.fa {
     color: black;
     font-size: 18px;
 }
+/* .read-more-hide{
+    display: none;
+} */
+.read-more{
+    color: blue;
+}
