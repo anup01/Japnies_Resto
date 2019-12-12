@@ -47,6 +47,6 @@ $(document).ready(function () {
         // $(".show_hide").text(txt);
         // $(".read-more-hide").toggle();
         $(this).prev('.read-more-hide').slideToggle(500);
-        $(this).text('Read less');
+        $(this).text(' Read less');
     });
 });

@@ -66,7 +66,7 @@
     -o-background-size: cover;
     background-size: cover;
     background-color: #1c120c;
-    background-attachment: inherit;
+    /* background-attachment: inherit; */
     position: relative;
     overflow: hidden;
 }
@@ -285,7 +285,7 @@
 }
 
 .disc-menu {
-    margin: 0rem 1rem 2rem 3rem;
+    margin: 0rem 3rem 2rem 3rem;
 }
 
 .disc-menu h4 {
@@ -320,8 +320,8 @@
 
 .dropdown {
     font-family: Montserrat;
-    height: 29px;
-    width: 230px;
+    /* height: 29px; */
+    /* width: 230px; */
     border-radius: 5px;
     font-size: 17px;
     margin: 0;
