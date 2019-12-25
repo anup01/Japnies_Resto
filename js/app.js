@@ -50,3 +50,27 @@ $(document).ready(function () {
         $(this).text(' Read less');
     });
 });
+
+// $(document).ready(function() {
+
+// })
+
+function myFunction(x) {
+    if (x.matches) { // If media query matches
+        const parentImg1 = document.getElementById('move-1');
+        const parentText1 = document.getElementById('move-2');
+        
+        // const allImag = document.querySelectorAll(".imgSuffel-1, .imgSuffel-2, .imgSuffel-3, .imgSuffel-4, .imgSuffel-5");
+        // console.log(allImag);
+        // const allText = document.querySelectorAll(".textShuffel-1, .textShuffel-2, .textShuffel-3, .textShuffel-4, .textShuffel-5");
+        // console.log(allText);        
+        const clone1 = parentImg1.cloneNode(true);
+        const clone2 = parentText1.cloneNode(true);
+        parentImg1.replaceWith(clone2);
+        parentText1.replaceWith(clone1);    
+        } 
+        setTimeout(myFunction, 100);
+    }   
+  var x = window.matchMedia("(max-width: 767px)");
+  myFunction(x); // Call listener function at run time
+  x.addListener(myFunction); // Attach listener function on state changes
