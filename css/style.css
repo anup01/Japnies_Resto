@@ -366,7 +366,9 @@ input {
     opacity: 1;
     /* Firefox */
 }
-
+.poster-image{
+    margin: -20px 0px -4px 0px;
+}
 .disc-menu-items-2 {
     background: #42453a;
 }
